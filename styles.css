@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+body
+{
+    /*height: 540px;*/
+    text-align: center;
+    margin: auto;
+    background-color: #edd2cb;
+    font-family: 'Sora', sans-serif;
+
+
+}
+.array-container
+{
+    position: absolute;
+    /*top: 50vh;*/
+    top:40px;
+    left: 3.5rem;
+    right: 3.5rem;
+    /*text-align: center;*/
+    margin: auto;
+    height:550px;
+   /* border: auto;*/
+   /* padding: auto;*/
+ 
+    /*display: none;*/
+       
+}
+.array-bar
+{
+    /*background-color: red;*/
+    width: 5.5px;
+    /*padding-bottom: 1.7rem;*/
+    position: relative;
+    
+    display: inline-block;
+    margin: 0 1px;
+    
+
+}
+
+.sorting-buttons
+{
+    position: relative;
+    top: 90vh;
+    background-color: #543c52;
+    /*padding: 1rem;*/
+    
+}
+.myRange
+{
+    cursor: pointer;
+}
+button
+{
+    cursor: pointer;
+    margin: 1rem;
+    background-color: #f1e8e6;
+    color: #361d32;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 6px 14px;
+    font-family: 'Sora', sans-serif;
+
+}
+button:disabled
+{
+    background-color: #361d32;
+    color:  #f1e8e6;
+}
+button:hover
+{
+    background-color: #b3b3b3;
+    transform: translate(0px,-5px);
+}
+/*
+.selection-btn
+{
+    background-color: aqua;
+}
+*/
