@@ -1,6 +1,6 @@
 let array=[];
 let i;
-let size=document.querySelector(".myRange").value;//(window.innerWidth-112)/6.5;//
+let size=document.querySelector(".myRange").value-34;//(window.innerWidth-112)/6.5;//
 document.querySelector(".myRange").addEventListener("input",function(){
     size=document.querySelector(".myRange").value;
 
