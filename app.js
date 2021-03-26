@@ -32,20 +32,6 @@ document.querySelector(".myRange").addEventListener("input",function(){
         b.style.width=k+"px";
     })
 })
-var x=window.matchMedia("(max-width: 613px)") 
-media(x);
-x.addListener(media);
-function media(x)
-{
-    if(x.matches)
-    {
-        for(let i=Math.floor(size/2);i<=size;i++ )
-        document.querySelector("#bar"+i).innerHTML="";
-        size=Math.floor(size/2);
-        array.length=size;
-        
-    }
-}
 
 function div()//creating divs for the bars
 {
