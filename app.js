@@ -7,21 +7,45 @@ document.querySelector(".myRange").addEventListener("input",function(){
     
     let k=0;
     if(size==50)
-    k=20;
+    {
+        k=20;
+        size=size-11;
+    }
     else if(size==75)
-    k=12.5;
+    {
+        k=12.5;
+        size=size-16;
+    }
     else if(size==100)
-    k=9;
+    {
+        k=9;
+        size=size-22;
+    }
     else if(size==125)
-    k=7;
+    {
+        k=7;
+        size=size-29;
+    }
     else if(size==150)
-    k=5.5;
+    {
+        k=5.5;
+        size=size-34;
+    }
     else if(size==175)
-    k=4.5;
+    { 
+        k=4.5;
+        size=size-42;
+    }
     else if(size==200)
-    k=3.5;
+    { 
+        k=3.5;
+        size=size-43;
+    }
     else if(size==225)
-    k=3;
+    {
+        k=3;
+        size=size-52;
+    }
     document.querySelector(".array-container").innerHTML="";
     //console.log(size);
     reset();
