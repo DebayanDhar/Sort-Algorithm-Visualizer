@@ -1,6 +1,6 @@
 let array=[];
 let i;
-let size=document.querySelector(".myRange").value-34;//(window.innerWidth-112)/6.5;//
+let size=document.querySelector(".myRange").value-34;
 document.querySelector(".myRange").addEventListener("input",function(){
     size=document.querySelector(".myRange").value;
 
@@ -43,11 +43,13 @@ document.querySelector(".myRange").addEventListener("input",function(){
     }
     else if(size==225)
     {
-        k=3;
-        size=size-52;
+        k=3.5;
+        size=size-64;
     }
     document.querySelector(".array-container").innerHTML="";
-    //console.log(size);
+    if((window.innerWidth<506)&&(size>116))
+    {size=116;
+        k=5.5;}
     reset();
     div();
     show(array);

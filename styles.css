@@ -2,7 +2,9 @@
 
 body
 {
-    /*height: 540px;*/
+    
+    display:flex;
+    flex-direction: column;
     text-align: center;
     margin: auto;
     background-color: #edd2cb;
@@ -13,30 +15,22 @@ body
 .array-container
 {
     position: absolute;
-    /*top: 50vh;*/
     top:40px;
     left: 3.5rem;
     right: 3.5rem;
-    /*text-align: center;*/
     margin: auto;
     height:550px;
-   /* border: auto;*/
-   /* padding: auto;*/
- 
-    /*display: none;*/
-       
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
 }
 .array-bar
 {
-    /*background-color: red;*/
     width: 5.5px;
-    /*padding-bottom: 1.7rem;*/
     position: relative;
-    
     display: inline-block;
     margin: 0 1px;
-    
-
 }
 
 .sorting-buttons
@@ -44,7 +38,6 @@ body
     position: relative;
     top: 90vh;
     background-color: #543c52;
-    /*padding: 1rem;*/
     
 }
 .myRange
@@ -75,9 +68,3 @@ button:hover
     background-color: #b3b3b3;
     transform: translate(0px,-5px);
 }
-/*
-.selection-btn
-{
-    background-color: aqua;
-}
-*/
